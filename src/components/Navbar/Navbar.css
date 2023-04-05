@@ -1,0 +1,166 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-black);
+   padding: 1rem 2rem;
+}
+
+.navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.navbar-logo img{
+    width: 9.3rem;
+}
+
+
+
+
+.navbar-links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-links a{
+   color: #fff;
+   text-decoration: none;
+   padding: 0 1rem;
+}
+
+
+.navbar-links a:hover{
+    color: var(--color-grey);
+ }
+
+ .navbar-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+ .navbar-login a{
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+ }
+
+ .navbar-login a:hover{
+    border-bottom: 1px solid var(--color-golden);
+ }
+
+ .navbar-login div{
+    width: 1px;
+    height: 30px;
+    background-color: var(--color-grey);
+ }
+
+
+ /* Hidden Menu */
+
+
+
+ .navbar-smallscreen{
+    display: none;
+ }
+
+ .navbar-smallscreen-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-black);
+    transition: all 0.5 ease;
+
+    flex-direction: column;
+    z-index: 5;
+ }
+
+ .navbar-smallscreen-overlay  .overlay-close{
+    font-size: 1.65rem;
+    color: var(--color-golden);
+    cursor: pointer;
+
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+ }
+
+.navbar-smallscreen-links{
+    list-style: none;
+    
+}
+
+.navbar-smallscreen-links li{
+    margin: 2rem;
+    cursor: pointer;
+    color: var(--color-golden);
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+}
+
+.navbar-smallscreen-links li{
+    margin: 2rem;
+    cursor: pointer;
+    color: var(--color-golden);
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+}
+
+.navbar-smallscreen-links li:hover{
+    color: var(--color-white);
+}
+
+
+   /* Media Queries */
+
+@media screen and (min-width: 2000px) {
+    .navbar-logo img{
+        width: 13rem;
+    }
+}
+
+
+ @media screen and (max-width: 1150px){
+    .navbar-links{
+    display: none;
+    }
+
+    .navbar-smallscreen{
+        display: flex;
+    }
+ }
+
+
+ @media screen and (max-width: 650px){
+    .navbar{
+       padding: .8rem 1rem;
+    }
+    
+    .navbar-login{
+        display: none;
+
+     }
+     
+
+     .navbar-logo{
+        padding: 0rem 0rem;
+    }
+
+     .navbar-logo img{
+        width: 8.8rem;
+    }
+
+   
+ }

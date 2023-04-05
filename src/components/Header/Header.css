@@ -1,0 +1,35 @@
+.header{
+    background-color: var(--color-black);
+}
+
+.header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-top: .5rem;
+    font-size: 5.6rem;
+}
+
+
+  .app-wrapper-img img{
+    border-radius: 5px;
+  }
+
+
+
+  
+@media screen and (max-width: 1150px) {
+  .header-h1{
+    font-size: 4.6rem;
+}
+
+}
+
+
+@media screen and (max-width: 650px) {
+  .header-h1{
+    font-size: 3.6rem;
+}
+
+}

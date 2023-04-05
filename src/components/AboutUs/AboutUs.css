@@ -1,0 +1,66 @@
+.aboutus{
+    position: relative;
+}
+
+.aboutus-overlay{
+    position: absolute;
+    inset: 0;
+    
+}
+
+.aboutus-overlay img{
+    width: 200px;
+
+    z-index: 1;
+}
+
+
+.aboutus-content{
+    gap: 1rem;
+}
+
+.aboutus-content-about{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    
+    z-index: 2;
+    gap: .5rem;
+}
+
+.aboutus-content-history{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    text-align: start;
+
+    z-index: 2;
+    gap: .5rem;
+}
+
+
+.aboutus-content-img{
+    margin: 2rem 0rem;
+}
+
+.aboutus-content-img img{
+    max-width: 200px;
+    height: auto;
+    z-index: 0;
+}
+
+
+
+@media screen and (max-width: 766px) {
+    .aboutus-content{
+        flex-direction: column ;
+    }
+    
+}
