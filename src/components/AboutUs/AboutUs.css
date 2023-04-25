@@ -6,12 +6,10 @@
 .aboutus-overlay{
     position: absolute;
     inset: 0;
-    
 }
 
 .aboutus-overlay img{
     width: 200px;
-
     z-index: 1;
 }
 
@@ -26,9 +24,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
     text-align: end;
-    
     z-index: 2;
     gap: .5rem;
 }
@@ -39,7 +35,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    
     text-align: start;
 
     z-index: 2;
