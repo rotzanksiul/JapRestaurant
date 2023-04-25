@@ -1,10 +1,10 @@
 .header{
-    background-color: var(--color-black);
+    background-color: var(--color-darkblue);
 }
 
 .header-h1{
     font-family: var(--font-base);
-    color: var(--color-golden);
+    color: var(--color-lightgolden);
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin-top: .5rem;

@@ -7,11 +7,17 @@
   --font-alt: 'Open Sans', sans-serif;
   
   --color-golden: #DCCA87;
+  --color-lightgolden: #E0D5C9;
   --color-black: #0C0C0C;
-  --color-gray: #545454;
+  --color-blue: #305166;
   --color-crimson: #F5EFDB;
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
+  --color-darkblue: #0A1D27;
+  --color-lightblue: #305166;
+  --color-light: #948D73;
+  
+  
 }
 
 * {

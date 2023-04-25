@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-black);
+    background-color: var(--color-darkblue);
    padding: 1rem 2rem;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .navbar-links a{
-   color: #fff;
+   color: var(--color-white);
    text-decoration: none;
    padding: 0 1rem;
 }
@@ -48,13 +48,14 @@
  }
 
  .navbar-login a{
+   color: var(--color-white);
     margin: 0 1rem;
     text-decoration: none;
     transition: 0.5s ease;
  }
 
  .navbar-login a:hover{
-    border-bottom: 1px solid var(--color-golden);
+    border-bottom: 1px solid var(--color-lightgolden);
  }
 
  .navbar-login div{
@@ -78,7 +79,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: var(--color-black);
+    background-color: var(--color-darkblue);
     transition: all 0.5 ease;
 
     flex-direction: column;
@@ -103,20 +104,13 @@
 .navbar-smallscreen-links li{
     margin: 2rem;
     cursor: pointer;
-    color: var(--color-golden);
+    color: var(--color-lightgolden);
     font-size: 2rem;
     text-align: center;
     font-family: var(--font-base);
 }
 
-.navbar-smallscreen-links li{
-    margin: 2rem;
-    cursor: pointer;
-    color: var(--color-golden);
-    font-size: 2rem;
-    text-align: center;
-    font-family: var(--font-base);
-}
+
 
 .navbar-smallscreen-links li:hover{
     color: var(--color-white);

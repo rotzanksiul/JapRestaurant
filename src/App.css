@@ -11,12 +11,28 @@
   
 }
 
-.app-bg {
-  background: url('./img/bg.png');
+.app{
+  background: url('./img/bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+/* To apply in every section the opacity */
+
+
+.app-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.3);
+  z-index: -1;
 }
 
 .app-wrapper {
@@ -57,15 +73,16 @@
  
 }
 
+
+
 .custom-button {
   background-color: var(--color-crimson);
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
     letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
     border-radius: 1px;
     border: none;
     outline: none;
@@ -74,33 +91,36 @@
 
 .p-cormorant {
   font-family: var(--font-base);
-  color: var(--color-white);
+  color: var(--color-light);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  font-feature-settings: 'tnum' on, 'lnum' on;
-  line-height: 29.9px;
-  font-size: 23px;
+  font-size: 1.438rem;
 }
+
+/* mostly used in text */
 
 .p-opensans {
   font-family: var(--font-alt);
-  color: var(--color-white);
+  color: var(--color-lightgolden);
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  line-height: 28px;
-  font-size: 16px;
+  font-size: 1rem;
 }
+
+
+/* mostly used in main titles */
 
 .headtext-cormorant {
   font-family: var(--font-base);
-  color: var(--color-golden);
-  font-size: 64px;
-  line-height: 83.2px;
+  color: var(--color-lightgolden);
+  font-size: 4rem;
   letter-spacing: 0.04em;
   text-transform: capitalize;
 }
+
+/* the smalls chopsticks */
 
 .chopstick-img {
   width: 45px;
@@ -113,14 +133,8 @@
 }
 
 @media screen and (min-width: 2000px) {
-  .custom-button,
-  .p-cormorant {
-    font-size: 37px;
-    line-height: 67px;
-  }
-
   .headtext-cormorant {
-    font-size: 150px;
+    font-size: 9.3rem;
   }
 
   .chopstick-img {
@@ -159,25 +173,25 @@
   }
   
   .p-cormorant {
-    font-size: 21px;
+    font-size: 1.313rem;
   }
 
   .p-opensans {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 
 @media screen and (max-width: 450px) {
   .p-opensans {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .p-cormorant {
-    font-size: 19px;
+    font-size: 0.75rem;
   }
 
   .headtext-cormorant {
-    font-size: 45px;
+    font-size: 2.813rem;
   }
 
 }

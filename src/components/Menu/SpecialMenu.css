@@ -1,6 +1,6 @@
 .specialMenu{
     flex-direction: column;
-    background-color: var(--color-black);
+    background-color: var(--color-darkblue);
 }
 
 .specialMenu-title{
@@ -21,7 +21,7 @@
     font-weight: 600;
     font-size: 2.8rem;
     letter-spacing: 0.04em;
-    color: var(--color-white);
+    color: var(--color-lightgolden);
 }
 
 .specialMenu-menu-wine, .specialMenu-menu-cocktails{

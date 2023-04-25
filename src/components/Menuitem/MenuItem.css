@@ -23,7 +23,7 @@
 .menuItem-dash{
     min-width: 5.6rem;
     height: 1px;
-    background-color: var(--color-golden);
+    background-color: var(--color-lightgolden);
     margin: 0 1rem;
 }
 

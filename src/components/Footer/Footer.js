@@ -10,7 +10,7 @@ import Gradient from "./Gradient";
 const Footer = () => {
   return (
     <div className="footer section-paddin app-bg">
-      {/* Black Gradient */}
+      {/* dark Gradient */}
       <Gradient></Gradient>
       {/* Sign In Component */}
       <Account></Account>

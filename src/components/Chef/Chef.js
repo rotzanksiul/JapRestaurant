@@ -11,14 +11,14 @@ const Chef = () => {
       </div>
 
       <div className="app-wrapper-info">
-        <SubHeading title={"Chef's Word"}></SubHeading>
-        <h1 className='headtext-cormorant'>What We Believe</h1>
+        <SubHeading title={"Head Chef"}></SubHeading>
+        <h1 className='headtext-cormorant'>Meet Our Chef</h1>
 
         <div className="chef-content">
           <div className="chef-content-quote">
             <p className='p-opensans'>
               <span className='span-quote'>&ldquo;</span>
-              we believe that dining should be an experience, not just a meal.
+              Dining should be an experience, not just a meal.
             </p>
           </div>
 
@@ -27,7 +27,6 @@ const Chef = () => {
 
         <div className="chef-sign">
           <p className='chef-name'>Saria Miyazaki</p>
-          <p className='p-opensans chef-title'>Head Chef</p>
         </div>
       </div>
     </div>

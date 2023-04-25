@@ -1,4 +1,6 @@
 
+
+
 .chef-content{
     display: flex;
     flex-direction: column;
@@ -17,7 +19,7 @@
     font-weight: 400;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    color: var(--color-golden);
+    color: var(--color-lightgolden);
     margin-bottom: 1rem;
 }
 

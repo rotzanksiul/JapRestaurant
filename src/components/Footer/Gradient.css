@@ -9,12 +9,8 @@
     position: absolute;
 }
 
-.gradient-black{
+.gradient-dark{
     height: 25%;
-    background-color: var(--color-black);
+    background-color: var(--color-darkblue);
 }
 
-.gradient-img{
-    height: 75%;
-    background-color: var(--color-black);
-}

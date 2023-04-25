@@ -21,7 +21,7 @@ const Customers = () => {
                     </div>
 
                     <div className="customer-content-content">
-                        <p className='p-cormorant' style={{ color: '#DCCA87' }}> Denile Foster</p>
+                        <p className='p-cormorant'> Denile Foster</p>
                         <span className='p-opensans'>Dj Axar</span>
                         <p className='p-opensans'><span className='span-quote'>&ldquo;</span>
                             The food was cooked to perfection and presented beautifully.
@@ -35,7 +35,7 @@ const Customers = () => {
                     </div>
 
                     <div className="customer-content-content">
-                        <p className='p-cormorant' style={{ color: '#DCCA87' }}> Antonio Anderson</p>
+                        <p className='p-cormorant' > Antonio Anderson</p>
                         <span className='p-opensans'>Musician</span>
                         <p className='p-opensans'><span className='span-quote'>&ldquo;</span>perfect for a date night.
                             We ordered the Ramen and it was delicious. The dessert was also a highlight, we had the takoyaki which was amazing. Will definitely come back!.</p>
@@ -48,7 +48,7 @@ const Customers = () => {
                     </div>
 
                     <div className="customer-content-content">
-                        <p className='p-cormorant' style={{ color: '#DCCA87' }}> Nestor Morgan</p>
+                        <p className='p-cormorant' > Nestor Morgan</p>
                         <span className='p-opensans'>Chef</span>
                         <p className='p-opensans'><span className='span-quote'>&ldquo;</span>
                             I had the pleasure of dining here for a business dinner and was blown away by the quality of the food and the level of service.
@@ -62,7 +62,7 @@ const Customers = () => {
                     </div>
 
                     <div className="customer-content-content">
-                        <p className='p-cormorant' style={{ color: '#DCCA87' }}> Chipi Van der Lin</p>
+                        <p className='p-cormorant' > Chipi Van der Lin</p>
                         <span className='p-opensans'>Chef</span>
                         <p className='p-opensans'><span className='span-quote'>&ldquo;</span>This restaurant exceeded my expectations. The menu was extensive and had something for everyone.
                             The staff was friendly and attentive, and the food was simply delicious.</p>

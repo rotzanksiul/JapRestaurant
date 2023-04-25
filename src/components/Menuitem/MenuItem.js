@@ -1,6 +1,6 @@
 import './MenuItem.css'
 
-//Component to render 
+//Component to render that contains the data for the drinks
 
 
 const MenuItem = ({ title, price, tags }) => {
@@ -10,7 +10,7 @@ const MenuItem = ({ title, price, tags }) => {
       <div className="menuItem-head">
 
         <div className="menuItem-name">
-          <p className="p-cormorant" style={{ color: '#DCCA87' }}>
+          <p className="p-cormorant" style={{ color: '#E0D5C9' }}>
             {title}
           </p>
         </div>

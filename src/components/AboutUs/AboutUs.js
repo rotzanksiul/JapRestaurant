@@ -10,7 +10,7 @@ const AboutUs = () => {
       <div className="aboutus-overlay flex-center">
         <img src={Kitsune} alt="" />
       </div>
-
+      {/* The kistune image will be on the front of the katana using position absolute */}
       <div className="aboutus-content flex-center">
         <div className="aboutus-content-about">
           <h1 className='headtext-cormorant'>About Us</h1>

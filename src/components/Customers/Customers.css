@@ -1,6 +1,6 @@
 
 .customers{
-    background-color: var(--color-black);
+    background-color: var(--color-darkblue);
     display: flex;
     flex-direction: column;
     justify-content: center;

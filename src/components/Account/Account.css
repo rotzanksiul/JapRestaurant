@@ -1,8 +1,8 @@
 
 .account{
     padding: 2rem 4rem;
-    border: 1px solid var(--color-golden);
-    background-color: var(--color-black);
+    border: 1px solid var(--color-lightgolden);
+    background-color: var(--color-darkblue);
 }
 
 .account-heading{
@@ -14,9 +14,13 @@
     margin-top: 3rem;
 }
 
+
+
+/* Styling the input */
+
 .account-input input{
     width: 620px;
-    border: 1px solid var(--color-golden);
+    border: 1px solid var(--color-lightgolden);
     border-radius: 5px;
     font-size: 1rem;
     font-family: var(--font-base);

@@ -12,7 +12,7 @@ const SpecialMenu = () => {
   return (
     <div className="specialMenu flex-center section-padding" id='menu'>
       <div className="specialMenu-title">
-        <SubHeading title='Our Delicious Menu That Fits You'></SubHeading>
+        <SubHeading title='Our Finest Drinks That Fits You'></SubHeading>
         <h1 className='specialMenu-h1 headtext-cormorant' >
           Our Drinks
         </h1>
@@ -22,6 +22,8 @@ const SpecialMenu = () => {
       <div className="specialMenu-menu">
         <div className="specialMenu-menu-wine flex-center">
           <p className='specialMenu-menu-heading'>Wine & Beers </p>
+
+          {/* Using a component to render all the data for the drinks using map  */}
 
           <div className="specialMenu-menu-wine-items">
             {data.wines.map((wine, index) => (

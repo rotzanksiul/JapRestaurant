@@ -13,7 +13,7 @@ const Findus = () => {
 
         <div className="app-wrapper-content">
           <p className='p-opensans'>3854 S Military Trail, Lake Worth, FL 33463</p>
-          <p className='p-cormorant hours' style={{ color: '#dcca87' }} >Opening Hours</p>
+          <p className='p-cormorant hours' style={{ color: '#E0D5C9' }} >Opening Hours</p>
           <p className='p-opensans' >Monday-Friday:
             08:00 am -12:00 am</p>
           <p className='p-opensans' >Saturday-Sunday:
