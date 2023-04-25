@@ -9,6 +9,7 @@
     position: absolute;
 }
 
+
 .gradient-dark{
     height: 25%;
     background-color: var(--color-darkblue);

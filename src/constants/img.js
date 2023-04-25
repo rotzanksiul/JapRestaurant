@@ -1,6 +1,5 @@
 // These are Images only for the gallery
 
-
 import ramen from '../img/Ramen.jpg'
 import tempura from '../img/Tempura.jpg'
 import sushi from '../img/Sushi.jpg'
